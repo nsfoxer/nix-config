@@ -1,0 +1,39 @@
+import = [
+  "~/.config/alacritty/breeze.toml",
+]
+
+live_config_reload = false
+ipc_socket = false
+
+[window]
+dynamic_padding = true
+decorations = "Full"
+opacity = 0.85
+# kde 需要启用 窗口管理 -> 桌面特效 -> 窗口背景虚化
+blur = true
+startup_mode = "Maximized"
+resize_increments = true
+
+[scrolling]
+multiplier = 5
+
+[font]
+# normal = {family = "Liberation Mono"}
+normal = {family = "Hack"}
+size = 13
+
+[bell]
+duration = 300
+animation = "Ease"
+color = "#232627"
+
+[cursor]
+# style =
+style = { shape = "Beam", blinking = "On"}
+vi_mode_style = { shape = "Block", blinking = "Off"}
+
+[mouse]
+hide_when_typing = true
+bindings = [
+{ mouse = "Right", mods = "Control", action = "Paste" },
+]

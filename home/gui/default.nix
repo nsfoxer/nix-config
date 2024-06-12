@@ -3,6 +3,7 @@
 {
   imports = [
     ./alacritty
+    ./firefox
   ];
 
   home.packages = with pkgs; [

@@ -17,5 +17,9 @@
     netease-cloud-music-gtk
     alacritty
     wechat-uos
+    telegram-desktop
+    wpsoffice-cn
+    mpv
+    vlc
   ];
 }

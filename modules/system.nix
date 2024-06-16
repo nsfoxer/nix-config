@@ -58,6 +58,8 @@
       timeout = 3;
     };
     kernelParams = ["quiet"];
+    # 对/tmp使用randomdisk，可能会导致大型nix构建失败。如果构建失败，则关闭此选项
+    tmp.useTmpfs = true;
   };
 
   # network

@@ -11,7 +11,6 @@
   environment.systemPackages = with pkgs; [
     firefox
     zed-editor
-    chromium
     vscode-fhs
     jetbrains.rust-rover
     netease-cloud-music-gtk
@@ -21,5 +20,6 @@
     wpsoffice-cn
     mpv
     vlc
+    brave
   ];
 }

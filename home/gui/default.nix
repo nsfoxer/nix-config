@@ -4,6 +4,7 @@
   imports = [
     ./alacritty
     ./mpv
+    ./entries
   ];
 
 }

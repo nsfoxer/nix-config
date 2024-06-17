@@ -8,9 +8,6 @@
 
   home.username = "nsfoxer";
   home.homeDirectory = "/home/nsfoxer";
-  home.packages = with pkgs;[
-
-  ];
 
   programs = {
     # git
@@ -19,6 +16,7 @@
       userName = "nsfoxer";
       userEmail = "muwuren@gmail.com";
     };
+    neovim.defaultEditor = true;
   };
 
 

@@ -1,16 +1,6 @@
 {pkgs, ...}:
 
 {
-  # boot
-#   boot = {
-#     plymouth = {
-#       enable = true;
-#     };
-#   };
-  # bluetooth
-
-
-
   # display services
   services = {
     xserver = {

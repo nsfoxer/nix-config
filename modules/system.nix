@@ -106,6 +106,11 @@
 
   services = {
     locate.enable = true;
+    netdata = {
+      enable = true;
+      python.enable = false;
+      configText = builtins.readFile(./conf/netdata.conf);
+    };
   };
 
   # NOTE Don't change it !!!

@@ -66,7 +66,7 @@
   networking = {
     hostName = lib.mkDefault "nsfoxer-pc";
     networkmanager.enable = true;
-    proxy.default = "http://192.168.10.34:7890";
+    # proxy.default = "http://192.168.10.34:7890";
     proxy.noProxy = "127.0.0.1,localhost,internal.domain";
 
     firewall = lib.mkDefault {

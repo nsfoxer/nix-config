@@ -77,6 +77,21 @@
     xorg.xeyes
     nvtopPackages.full
     lshw
+    pciutils
+    kmail
+    krita
+    kdenlive
+    kcalc
+    kdePackages.discover
+    kdePackages.kdeconnect-kde
+    kdePackages.partitionmanager
+    kdePackages.ksystemlog
+    kdePackages.sweeper
+    glxinfo
+    vulkan-tools
+    wayland-utils
+    ddcutil
+    kdePackages.kirigami
   ];
 
   # fcitx5 输入法设置

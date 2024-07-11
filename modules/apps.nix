@@ -1,4 +1,4 @@
-{pkgs, ...}:
+{config, pkgs, ...}:
 
 {
 
@@ -6,13 +6,29 @@
   nixpkgs.config.permittedInsecurePackages = [
     "openssl-1.1.1w"
   ];
+
+  nixpkgs.config.brave.commandLineArgs = "--ozone-platform-hint=auto --ozone-platform=wayland --gtk-version=4 --enable-wayland-ime";
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
-  environment.systemPackages = with pkgs; [
-    firefox
+  environment.systemPackages = 
+  # let 
+  #   # config.packageOverrides = pkgs: {
+  #   #   brave.override = {
+  #   #     commandLineArgs = [
+  #   #       "--ozone-platform-hint=auto"
+  #   #       "--ozone-platform=wayland"
+  #   #       "--gtk-version=4"
+  #   #       "--enable-wayland-ime"
+  #   #     ];
+  #   #   };
+  #   # };
+  # in
+   with pkgs; [
     zed-editor
     vscode-fhs
     jetbrains.rust-rover
+    jetbrains.idea-ultimate
     netease-cloud-music-gtk
     alacritty
     wechat-uos
@@ -21,5 +37,8 @@
     mpv
     vlc
     brave
+    keepassxc
   ];
 }
+
+        

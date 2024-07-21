@@ -4,9 +4,9 @@
   ...
 }: {
   # ssh config
-  home.file."config" = {
+  home.file.".ssh/config" = {
     # source = config.lib.file.mkOutOfStoreSymlink "/etc/nixos/home/common/configs/ssh/config";
-    source = config.lib.file.mkOutOfStoreSymlink "/etc/nixos/home/common/configs/ssh/config";
+    source = ./configs/ssh/config;
   };
 
 }

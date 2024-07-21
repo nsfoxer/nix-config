@@ -34,6 +34,7 @@
     vlc
     brave
     keepassxc
+    mission-center
   ];
 }
 

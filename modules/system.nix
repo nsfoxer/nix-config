@@ -113,9 +113,9 @@
     };
   };
 
+
+  zramSwap.enable = true;
+
   # NOTE Don't change it !!!
   system.stateVersion = "24.11";
-
-
-
 }

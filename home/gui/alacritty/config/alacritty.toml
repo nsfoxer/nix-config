@@ -20,7 +20,7 @@ multiplier = 5
 [font]
 # normal = {family = "Liberation Mono"}
 normal = {family = "Hack"}
-size = 13
+size = 12
 
 [bell]
 duration = 300

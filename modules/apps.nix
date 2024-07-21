@@ -24,6 +24,7 @@
     vscode-fhs
     jetbrains.rust-rover
     jetbrains.idea-ultimate
+    dbeaver-bin
     netease-cloud-music-gtk
     alacritty
     wechat-uos

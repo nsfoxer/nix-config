@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=微信
-Exec=env QT_SCALE_FACTOR=2 wechat-uos -- %U
+Exec=env QT_SCALE_FACTOR=1.5 wechat-uos -- %U
 StartupNotify=true
 Terminal=false
 Icon=com.tencent.wechat

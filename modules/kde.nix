@@ -92,6 +92,7 @@
     wayland-utils
     ddcutil
     kdePackages.kirigami
+    kdePackages.kolourpaint
   ];
 
   # fcitx5 输入法设置
@@ -117,6 +118,13 @@
   };
 
 
-  hardware.bluetooth.enable = true;
+  # 额外的硬件启用
+  hardware = {
+    # 启用蓝牙
+    bluetooth.enable = true;
+
+    # 启用ddc支持
+    i2c.enable = true;
+  };
 
 }

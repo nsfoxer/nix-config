@@ -9,5 +9,7 @@
     llvmPackages.bintools
     rustup
     flutter
+    protobuf
+    nixpkgs-fmt
   ];
 }

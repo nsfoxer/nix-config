@@ -11,15 +11,7 @@
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
-  environment.systemPackages = 
-  let 
-    config.packageOverrides = pkgs: {
-      brave.override = {
-        commandLineArgs = "--ozone-platform-hint=auto --ozone-platform=wayland --gtk-version=4 --enable-wayland-ime";
-      };
-    };
-  in
-   with pkgs; [
+  environment.systemPackages = with pkgs; [
     zed-editor
     vscode-fhs
     jetbrains.rust-rover

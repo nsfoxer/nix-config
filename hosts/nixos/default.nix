@@ -12,6 +12,7 @@
     ../../modules/develop.nix
     ../../modules/gpu.nix
     ../../modules/game.nix
+    ../../modules/lock.nix
     ./hardware-configuration.nix
   ];
 

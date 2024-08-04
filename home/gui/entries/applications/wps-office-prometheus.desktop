@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment=Use WPS Writer to office work.
+Comment[zh_CN]=使用 WPS 2019进行办公
+Exec=/nix/store/v3mmj9yjw5jhm21ppwyfd4fcys2q9nqj-wpsoffice-11.1.0.11720/bin/wps %F
+GenericName=WPS
+GenericName[zh_CN]=WPS 2019
+Name=WPS 2019
+Name[zh_CN]=WPS 2019
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Office;WordProcessor;Qt;
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+Icon=wps-office2019-kprometheus
+InitialPreference=3
+StartupWMClass=wpsoffice

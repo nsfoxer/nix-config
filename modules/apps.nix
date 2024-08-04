@@ -21,7 +21,7 @@
     alacritty
     wechat-uos
     telegram-desktop
-    wpsoffice-cn
+    # wpsoffice-cn
     mpv
     vlc
     brave

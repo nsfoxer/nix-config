@@ -24,4 +24,10 @@
     onChange = ''
       cat ~/.local/share/applications/steam.desktop.link > ~/.local/share/applications/steam.desktop
     '';
+  };
+  home.file.".local/share/applications/wps-office-wps.desktop.link" = {
+    source = ./applications/steam.desktop;
+    onChange = ''
+      cat ~/.local/share/applications/wps-office-wps.desktop.link > ~/.local/share/applications/wps-office-wps.desktop
+    '';
   };}

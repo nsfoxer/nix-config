@@ -11,5 +11,6 @@
     flutter
     protobuf
     nixpkgs-fmt
+    protoc-gen-dart
   ];
 }

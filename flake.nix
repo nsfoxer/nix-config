@@ -6,7 +6,7 @@
     # substituers will be appended to the default substituters when fetching packages
     # nix com    extra-substituters = [munity's cache server
     extra-substituters = [
-      "https://mirror.nju.edu.cn/nix-channels/store"
+      # "https://mirror.nju.edu.cn/nix-channels/store"
       "https://nix-community.cachix.org"
     ];
     extra-trusted-public-keys = [

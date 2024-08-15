@@ -18,7 +18,7 @@
 
   # network
   networking = {
-    proxy.default = "http://192.168.1.13:7890";
+    proxy.default = "http://192.168.1.8:7890";
   };
 
   i18n.defaultLocale = lib.mkForce "zh_CN.UTF-8";

@@ -12,7 +12,7 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    zed-editor
+    # zed-editor
     vscode-fhs
     jetbrains.rust-rover
     jetbrains.idea-ultimate

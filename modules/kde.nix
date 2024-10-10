@@ -58,8 +58,8 @@
     ];
 
     # use fonts specified by user rather than default ones
-    enableDefaultPackages = true;
-    fontDir.enable = true;
+    enableDefaultPackages = false;
+    fontDir.enable = false;
 
 
     # user defined fonts
@@ -93,6 +93,7 @@
     ddcutil
     kdePackages.kirigami
     kdePackages.kolourpaint
+    kdePackages.qttools
   ];
 
   # fcitx5 输入法设置
@@ -122,6 +123,8 @@
   hardware = {
     # 启用蓝牙
     bluetooth.enable = true;
+    bluetooth.powerOnBoot = true;
+     enableAllFirmware = true;
 
     # 启用ddc支持
     i2c.enable = true;

@@ -15,10 +15,12 @@
     pkg-config
     dbus
     protoc-gen-prost
+    openssl
   ];
 
   environment.variables = {
     PKG_CONFIG_PATH="${pkgs.dbus.dev}/lib/pkgconfig";
+    FLUTTER_ROOT="${pkgs.flutter}";
   };
 
 }

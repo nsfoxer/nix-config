@@ -82,7 +82,6 @@
     krita
     kdenlive
     kcalc
-    kdePackages.discover
     kdePackages.kdeconnect-kde
     kdePackages.partitionmanager
     kdePackages.ksystemlog

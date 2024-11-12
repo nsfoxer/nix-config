@@ -18,10 +18,14 @@
     openssl
     fontconfig
     freetype
+    xz
   ];
 
   environment.variables = {
-    PKG_CONFIG_PATH="${pkgs.dbus.dev}/lib/pkgconfig:${pkgs.openssl.dev}/lib/pkgconfig:${pkgs.fontconfig.dev}/lib/pkgconfig:${pkgs.freetype.dev}/lib/pkgconfig";
+    PKG_CONFIG_PATH="${pkgs.dbus.dev}/lib/pkgconfig:${pkgs.openssl.dev}/lib/pkgconfig"
+      + ":${pkgs.fontconfig.dev}/lib/pkgconfig:${pkgs.freetype.dev}/lib/pkgconfig"
+      + ":${pkgs.xz.dev}/lib/pkgconfig"
+      ;
     FLUTTER_ROOT="${pkgs.flutter}";
   };
 

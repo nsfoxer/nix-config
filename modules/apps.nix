@@ -25,6 +25,8 @@
     brave
     keepassxc
     mission-center
+    jetbrains.rust-rover
+    jetbrains.idea-ultimate
   ];
 }
 

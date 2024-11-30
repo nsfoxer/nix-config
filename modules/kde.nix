@@ -93,6 +93,7 @@
     kdePackages.kirigami
     kdePackages.kolourpaint
     kdePackages.qttools
+    kdialog
   ];
 
   # fcitx5 输入法设置

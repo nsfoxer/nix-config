@@ -13,7 +13,7 @@
     ../../modules/gpu.nix
     ../../modules/game.nix
     ../../modules/lock.nix
-    ../../modules/unstable.nix
+#     ../../modules/unstable.nix
     ./hardware-configuration.nix
   ];
 

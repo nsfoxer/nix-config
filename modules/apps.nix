@@ -11,7 +11,6 @@
     alacritty
     wechat-uos
     telegram-desktop
-    onlyoffice-bin_latest
     mpv
     vlc
     brave
@@ -19,6 +18,7 @@
     mission-center
     jetbrains.rust-rover
     jetbrains.idea-ultimate
+    wpsoffice-cn
   ];
 }
 

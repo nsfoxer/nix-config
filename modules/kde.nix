@@ -98,7 +98,8 @@
 
   # fcitx5 输入法设置
   i18n.inputMethod = {
-    enabled = "fcitx5";
+    type = "fcitx5";
+    enable = true;
     fcitx5.addons = with pkgs; [
         rime-data # 必须加上，否则rime不可用
         fcitx5-rime

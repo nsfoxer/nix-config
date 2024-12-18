@@ -13,13 +13,13 @@
     ../../modules/gpu.nix
     ../../modules/game.nix
     ../../modules/lock.nix
-#     ../../modules/unstable.nix
+    ../../modules/unstable.nix
     ./hardware-configuration.nix
   ];
 
   # network
   networking = {
-    proxy.default = "http://192.168.1.30:7890";
+    proxy.default = "http://192.168.1.30:17890";
   };
 
   i18n.defaultLocale = lib.mkForce "zh_CN.UTF-8";

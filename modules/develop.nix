@@ -19,6 +19,7 @@
     fontconfig
     freetype
     xz
+    python313
   ];
 
   environment.variables = {
